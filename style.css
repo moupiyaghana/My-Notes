@@ -1,0 +1,90 @@
+
+
+
+body {
+  background: linear-gradient(135deg, #abc2d8, #8fb3d7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 500px;
+  height: 120px;
+  padding: 15px;
+  border: 2px solid #6c63ff;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 30px;
+  font-size: 16px;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-colour 0.3s ease;
+}
+
+button:hover {
+  background: #574b90;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #333;
+}
+
+#notesList {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.note {
+  background: #fff;
+  border-left: 5px solid #6c63ff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.note p {
+  margin: 0;
+  color: #555;
+  white-space: pre-wrap;
+}
+
+.delete {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #ff4b5c;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-colour 0.3s ease;
+}
+
+.delete:hover {
+  background: #c0392b;
+}
